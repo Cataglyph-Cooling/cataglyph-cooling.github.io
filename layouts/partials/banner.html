@@ -1,0 +1,18 @@
+<!-- Banner -->
+<section class="banner {{ .style }}">
+    <div class="content">
+        {{ with .logo }}<div class="logo">
+            <img src="{{ .file }}" alt="{{ .alt }}"/>
+        </div>{{ end }}
+        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .button }}<ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
+        </ul>{{ end }}
+    </div>
+    {{ with .image }}<div class="image">
+        <img src="{{ .file }}" alt="{{ .alt }}" />
+        {{with .overlay_text}}<div class="overlay"><h2>{{ . }}</h2></div>{{end}}
+    </div>{{end}}
+</section>

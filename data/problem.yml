@@ -1,0 +1,22 @@
+####################### Spotlight #########################
+style: "style1 content-align-left"
+left:
+  summary: |
+    Each summer, workers face intense heat on the worksite, causing heat-related downtime, lowered productivity, and higher worker turnover.
+  content:
+    - title: Heat-related downtime
+      description: A single heat event that causes a worker to leave their post, even when not OSHA-reportable, can cost hundreds of dollars in lost time and follow-up.
+    - title: Productivity
+      description: Worksites slow down when the heat index rises above 85F, especially in environments of high humidity, direct sunlight, or light wind. Experts estimate this contributes to labor productivity loss of up to 30%, and managers have observed that job site production can slow 10-20% on a hot summer day.
+    - title: Worker turnover and satisfaction
+      description: In the long term, excessive heat can deteriorate job satisfaction, causing costly turnover.
+right:
+  summary: |
+    Employers are left with rudimentary ways of dealing with the heat: water, ice, shade, and work-rest cycles.
+  content:
+    - title: Water and ice
+      description: Workers today rely on coolers filled with water bottles and ice to keep cool. The cold water directly regulates body temperature and supply additional fluid to replace sweat.
+    - title: Passive measures
+      description: Some workers use cooling towels, which they soak in water and drape around their neck. Others make sure to wear wide-brimmed hats with neck gaiters to keep the sun off their skin.
+    - title: Upgrading to active systems
+      description: While these techniques provide some level of heat relief, they are far less effective than the active cooling that a cooling vest can provide.

@@ -1,0 +1,8 @@
+subtitle: About Us
+content:
+  data: |
+    <p>We <s>are</s> were a team of MIT engineers hoping to bring powerful cooling solutions to workers around the world.</p>
+    <p>Isaac is now building <a href="https://cartesian.systems" target="_blank">Cartesian</a> (indoor mapping and tracking for retail & supply chain).</p>
+    <p>Wilbur is now building <a href="https://meticulate.ai" target="_blank">Meticulate</a> (automated business workflows).</p>
+    <p>Seiji decided to keep doing thermo calculations in his PhD at MIT (<a href="https://seijiengelkemier.net/" target="_blank">CO2-free Hydrogen production</a>).</p>
+  style: content-center

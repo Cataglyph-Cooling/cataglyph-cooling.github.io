@@ -1,0 +1,13 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right"
+logo:
+  file: "images/cata_cooling_2.png"
+  alt: "Cata Cooling Logo"
+title : ""
+subtitle: ""
+content: ""
+image :
+  file: "images/construction_platform_1.jpg"
+  alt: "Cata Cooling in Construction Yard"
+  overlay_text: "Workforce Heat Relief Solutions"
+

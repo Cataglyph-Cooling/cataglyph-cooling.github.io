@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "closing_notice" }}
+	{{ partial "two_columns" site.Data.problem }}
+	{{ partial "content_block" site.Data.offering }}
+	{{ partial "spotlight" site.Data.industries }}
+	{{ partial "spotlight" site.Data.pilot }}
+	{{ partial "content_block" site.Data.contact }}
+	{{ partial "content_block" site.Data.about_us }}
+	{{ partial "gallery" site.Data.gallery }}
+	{{ partial "footer" . }}
+{{ end }}

@@ -1,0 +1,10 @@
+// Based on instructions from: https://rednafi.com/misc/self_hosted_google_fonts_in_hugo/#fn:5\
+// and help: https://discourse.gohugo.io/t/how-to-add-custom-fonts-and-not-depend-on-google/34267
+/* league-spartan-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/league-spartan-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

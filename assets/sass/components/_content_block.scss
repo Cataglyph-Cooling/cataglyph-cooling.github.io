@@ -1,0 +1,12 @@
+.wrapper.style1 {
+    .inner {
+        .content {
+            &.content-center {
+                text-align: center;
+            }
+            &.content-justify {
+                text-align: justify;
+            }
+        }
+    }
+}

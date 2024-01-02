@@ -1,0 +1,17 @@
+<!-- Two-Columns -->
+<section class="two-columns {{ .style }}"{{ with .id }} id="{{ . }}"{{ end }}>
+    <div class="content">
+        {{ with .left.summary }}<p><strong>{{ . | safeHTML }}</strong></p>{{ end }}
+        {{ range .left.content }}
+            <strong>{{ .title | safeHTML }}</strong>
+            <p>{{ .description | safeHTML }}</p>
+        {{ end }}
+    </div>
+    <div class="content">
+        {{ with .right.summary }}<p><strong>{{ . | safeHTML }}</strong></p>{{ end }}
+        {{ range .right.content }}
+            <strong>{{ .title | safeHTML }}</strong>
+            <p>{{ .description | safeHTML }}</p>
+        {{ end }}
+    </div>
+</section>

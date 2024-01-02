@@ -1,0 +1,53 @@
+title: "Archive Gallery"
+style: "style1 small lightbox"
+content: We investigated multiple approaches to wearable cooling our two years of development.
+pictures:
+  - image: "images/gallery/fulls/Product_Renders_WebLarge/freezer_front_open.png"
+    thumb: "images/gallery/thumbs/Product_Renders_Thumbnail/freezer_front_open.png"
+    title: "Freezer Front Open on Trailer"
+
+  - image: "images/gallery/fulls/Product_Renders_WebLarge/freezer_notrailer.png"
+    thumb: "images/gallery/thumbs/Product_Renders_Thumbnail/freezer_notrailer.png"
+    title: "Freezer Front - Forklift Moveable"
+
+  - image: "images/gallery/fulls/Product_Renders_WebLarge/vest_front.png"
+    thumb: "images/gallery/thumbs/Product_Renders_Thumbnail/vest_front.png"
+    title: "Vest Front"
+    content: "Class 2 Safety with 90 minutes of cooling"
+
+  - image: "images/gallery/fulls/Product_Renders_WebLarge/vest_rear.png"
+    thumb: "images/gallery/thumbs/Product_Renders_Thumbnail/vest_rear.png"
+    title: "Vest Rear"
+
+  - image: "images/gallery/fulls/Usage_Renders_WebLarge/crane_lifting.jpg"
+    thumb: "images/gallery/thumbs/Usage_Renders_Thumbnail/crane_lifting.jpg"
+    title: "Crane Moveable"
+
+  - image: "images/gallery/fulls/Usage_Renders_WebLarge/rebar_workers.jpg"
+    thumb: "images/gallery/thumbs/Usage_Renders_Thumbnail/rebar_workers.jpg"
+    title: "Well-Suited for Rebar/Concrete Workers"
+
+  - image: "images/gallery/fulls/Usage_Renders_WebLarge/solar_field.jpg"
+    thumb: "images/gallery/thumbs/Usage_Renders_Thumbnail/solar_field.jpg"
+    title: "Field-Ready (see end of aisle)"
+
+  - image: "images/gallery/fulls/Airflow_WebLarge_WebLarge/full_vest_separated.png"
+    thumb: "images/gallery/thumbs/Airflow_Thumbnail/full_vest_separated.png"
+    title: "Prior Version: Airflow Vest"
+
+  - image: "images/gallery/fulls/Airflow_WebLarge/full_vest_colors.png"
+    thumb: "images/gallery/thumbs/Airflow_Thumbnail/full_vest_colors.png"
+
+  - image: "images/gallery/fulls/Airflow_WebLarge/full_vest_cutaway_2.png"
+    thumb: "images/gallery/thumbs/Airflow_Thumbnail/full_vest_cutaway_2.png"
+    title: "Prior Version: Airflow Vest"
+    content: "Fans would circulate cold air over a swappable ice pack and through the vest."
+
+  - image: "images/gallery/fulls/Airflow_WebLarge/full_vest_side.png"
+    thumb: "images/gallery/thumbs/Airflow_Thumbnail/full_vest_side.png"
+
+  - image: "images/gallery/fulls/Airflow_WebLarge/metal_worker_02.png"
+    thumb: "images/gallery/thumbs/Airflow_Thumbnail/metal_worker_02.png"
+
+  - image: "images/gallery/fulls/Airflow_WebLarge/rebar_worker_01.png"
+    thumb: "images/gallery/thumbs/Airflow_Thumbnail/rebar_worker_01.png"
