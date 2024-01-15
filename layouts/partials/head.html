@@ -11,27 +11,27 @@
 	<!-- CSS -->
 	{{ if .Site.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
-	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+	<link rel="stylesheet" href="{{ ($style).Permalink }}">
 	{{ else }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "enableSourceMap" false) }}
-	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
+	<link rel="stylesheet" href="{{ ($style | minify).Permalink }}">
 	{{ end }}
 	{{ if .Site.IsServer }}
 	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "css/noscript.css" "enableSourceMap" false) }}
-	<noscript><link rel="stylesheet" href="{{ ($noscript).RelPermalink }}" /></noscript>
+	<noscript><link rel="stylesheet" href="{{ ($noscript).Permalink }}" /></noscript>
 	{{ else }}
 	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "css/noscript.css" "enableSourceMap" false) }}
-	<noscript><link rel="stylesheet" href="{{ ($noscript | minify).RelPermalink }}" /></noscript>
+	<noscript><link rel="stylesheet" href="{{ ($noscript | minify).Permalink }}" /></noscript>
 	{{end}}
 
 	<!-- Custom Fonts -->
 	{{/*  Not sure if there's a better way to do this (e.g. should it go in main?)  */}}
 	{{ if .Site.IsServer }}
 	{{ $style := resources.Get "sass/custom_fonts.scss" | resources.ExecuteAsTemplate "scss/custom_fonts.scss" . | toCSS (dict "targetPath" "css/custom_fonts.css" "outputStyle" "compressed" "enableSourceMap" false) }}
-	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+	<link rel="stylesheet" href="{{ ($style).Permalink }}">
 	{{ else }}
 	{{ $style := resources.Get "sass/custom_fonts.scss" | resources.ExecuteAsTemplate "scss/custom_fonts.scss" . | toCSS (dict "targetPath" "css/custom_fonts.css" "enableSourceMap" false) }}
-	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
+	<link rel="stylesheet" href="{{ ($style | minify).Permalink }}">
 	{{ end }}
 
 
